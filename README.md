@@ -43,5 +43,6 @@ you are willing to wipe.
 
 Every release publishes three things that carry the same version — the platform's charts
 as OCI artifacts, nedo's image, and the payload here. Naming a version pins all three.
-`latest` resolves to the most recent release; naming one explicitly is what you want if
-you care which.
+`latest` resolves to the most recent **stable** release - GitHub's own definition, which
+excludes pre-releases. So while only release candidates exist, `latest` finds nothing and
+says so: name a version explicitly.
